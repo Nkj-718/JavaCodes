@@ -23,6 +23,6 @@ public class GreaterNumber {
             System.out.println(c + " is the largest given number.");
         }
 
-        scanner.close();
+        scanner.close(); //close scanner object
     }
 }
