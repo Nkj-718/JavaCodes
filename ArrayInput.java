@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ArrayInput {
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of elements in the array: ");
         int n = sc.nextInt();
@@ -17,5 +17,8 @@ public class ArrayInput {
         for (int i=0;i<arr.length;i++) {
             System.out.println(arr[i] + "\t");
         }
+
+        sc.close();
     }
+
 }
